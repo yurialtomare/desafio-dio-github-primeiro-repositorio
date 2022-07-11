@@ -12,11 +12,11 @@
 - ***CTRL + L:*** Limpa o terminal do git
 - ***mkdir "nome da pasta":*** Cria uma pasta 
 
-- ***Git init***: cria um repositório git dentro de uma pasta
+- ***Git init:*** cria um repositório git dentro de uma pasta
 
-- ***Git add***: adiciona os arquivos "Untracked" para "Tracked" e "Staged"
+- ***Git add:*** adiciona os arquivos "Untracked" para "Tracked" e "Staged"
 
-- ***Git status:*** Informa o status do diretório
+- ***Git status:***Informa o status do diretório
 
 - ***Git commit -m "Nome ou aviso":*** "commita" os arquivos, mudando o estado "Staged"
 
