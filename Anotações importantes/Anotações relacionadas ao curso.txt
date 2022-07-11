@@ -1,0 +1,41 @@
+# Introdução ao Git e GitHub
+
+* ***GIT*** é uma ferramenta de versionamento de arquivos/códigos, podendo alterar o mesmo sem perder os arquivos antigos e até mesmo poder mexer em um código que uma pessoa enteja mexendo simultaneamente.
+
+
+
+##  Comandos importantes GIT
+
+- ***"ls"***: lista as pastas ou arquivos contidos no diretório
+- ***cd "nome da pasta":*** para entrar em uma pasta
+- ***cd ..:*** retorna  em um nível da pasta onde estava
+- ***CTRL + L:*** Limpa o terminal do git
+- ***mkdir "nome da pasta":*** Cria uma pasta 
+
+- ***Git init***: cria um repositório git dentro de uma pasta
+
+- ***Git add***: adiciona os arquivos "Untracked" para "Tracked" e "Staged"
+
+- ***Git status:*** Informa o status do diretório
+
+- ***Git commit -m "Nome ou aviso":*** "commita" os arquivos, mudando o estado "Staged"
+
+- ***Git config --global user.email "nome do email"***
+
+- ***Git config --global user.name "nome"***
+
+- ***Git config --global unset ...***
+
+- ***Git remote add origin "URL":*** envia os repositórios da máquina local para um repositório remoto.
+
+- ***Git push origin master:*** envia os códigos contido nos repositórios local para um repositório remoto
+
+  
+
+## Clico de vida dos arquivos Git
+
+- Arquivos **"Untracked":** são pastas ou arquivos que ainda não são reconhecidos pelo Git
+- Arquivos **"Tracked":** são pastas ou arquivos reconhecidos pelo Git
+- Arquivos **"Staged":** os arquivos estão preparados para serem commitados
+- Arquivos **"Commitados":** arquivos prontos para serem transferidos para o repositório remoto (GitHub)
+
